@@ -3,7 +3,7 @@ package HW1;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Box<T extends Lesson_1.DZ.Fruit> {
+public class Box<T extends Fruit> {
     private ArrayList<T> list;
 
     public Box(T... arr) {

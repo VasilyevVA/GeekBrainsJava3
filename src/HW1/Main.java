@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Box<Fruit> box = new Box<>();
-        Box<Lesson_1.DZ.Apple> boxa = new Box<>();
-        boxa.addFruit(new Lesson_1.DZ.Apple());
+        Box<Apple> boxa = new Box<>();
+        boxa.addFruit(new Apple());
         boxa.transfer(box);
     }
 
